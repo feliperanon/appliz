@@ -1,0 +1,42 @@
+/* Estilos globais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos responsivos para páginas */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Estilos específicos para telas menores */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+    .color1 { background-color: #8ce86b; }
+    .color2 { background-color: #a6ee84; }
+    .color3 { background-color: #c1f49d; }
+    .color4 { background-color: #dbf9b5; }
+    .color5 { background-color: #f5ffce; }
+    
+    .text-primary {
+      color: #8ce86b;
+    }
+    }
+  

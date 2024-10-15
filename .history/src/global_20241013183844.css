@@ -1,0 +1,20 @@
+.custom-btn {
+  background-color: #282832;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-btn:hover {
+  background-color: #3d3d50; /* Cor levemente mais clara ao passar o mouse */
+  transform: scale(1.05);    /* Aumenta levemente o botão */
+}
+
+.custom-btn:active {
+  background-color: #20202b; /* Cor mais escura ao clicar */
+  transform: scale(1);       /* Volta ao tamanho normal */
+}
+
+.custom-btn:focus {
+  box-shadow: none;          /* Remove o outline azul padrão do Bootstrap */
+}

@@ -1,0 +1,80 @@
+/* Navbar Styles */
+.nav-link {
+  position: relative;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:active {
+  background-color: #3d3d50;  /* Cor mais clara ao clicar */
+  transform: scale(0.98);  /* Efeito de "pressionar" */
+}
+
+.nav-link:hover {
+  text-decoration: none; /* Remove sublinhado ao passar o mouse */
+}
+
+.nav-link .fa {
+  transition: color 0.3s ease;
+}
+
+.nav-link:active .fa {
+  color: #ffcc00; /* Muda a cor do ícone ao clicar */
+}
+
+/* Botão Padrão */
+.custom-btn {
+  background-color: #282832;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-btn:hover {
+  background-color: #3d3d50; /* Cor levemente mais clara ao passar o mouse */
+  transform: scale(1.05);    /* Aumenta levemente o botão */
+}
+
+.custom-btn:active {
+  background-color: #20202b; /* Cor mais escura ao clicar */
+  transform: scale(1);       /* Volta ao tamanho normal */
+}
+
+.custom-btn:focus {
+  box-shadow: none;          /* Remove o outline azul padrão do Bootstrap */
+}
+
+/* Botão de Editar */
+.custom-btn-edit {
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-btn-edit:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);    /* Aumenta levemente o botão */
+}
+
+.custom-btn-edit:active {
+  background-color: #d4a600; /* Cor mais escura ao clicar */
+  transform: scale(1);       /* Volta ao tamanho normal */
+}
+
+/* Botão de Excluir */
+.custom-btn-delete {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-btn-delete:hover {
+  background-color: #e60000;
+  transform: scale(1.05);    /* Aumenta levemente o botão */
+}
+
+.custom-btn-delete:active {
+  background-color: #cc0000; /* Cor mais escura ao clicar */
+  transform: scale(1);       /* Volta ao tamanho normal */
+}
